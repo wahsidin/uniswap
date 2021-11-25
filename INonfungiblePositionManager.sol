@@ -2,6 +2,8 @@
 pragma solidity >=0.7.5;
 pragma abicoder v2;
 
+import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Metadata.sol';
+
 import 'https://github.com/Uniswap/v3-periphery/blob/main/contracts/interfaces/IPoolInitializer.sol';
 import 'https://github.com/Uniswap/v3-periphery/blob/main/contracts/interfaces/IPeripheryPayments.sol';
 import 'https://github.com/Uniswap/v3-periphery/blob/main/contracts/interfaces/IPeripheryImmutableState.sol';
